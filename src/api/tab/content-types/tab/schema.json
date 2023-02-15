@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tab",
     "pluralName": "tabs",
-    "displayName": "tab"
+    "displayName": "tab",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,10 @@
     },
     "category": {
       "type": "string"
+    },
+    "likesCounter": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
